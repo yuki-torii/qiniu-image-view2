@@ -1,0 +1,30 @@
+{
+  "name": "qiniu-image-view2",
+  "description": "A npm project",
+  "version": "0.1.0",
+  "author": "limichange <limichange@hotmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "npm run lint && ava",
+    "lint": "eslint --ext .js src test/unit/specs"
+  },
+  "dependencies": {
+    "lodash.isstring": "^4.0.1",
+    "object-keys": "^1.0.11"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0"
+  },
+  "standard": {
+    "globals": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:yuki-torii/qiniu-image-view2.git.git"
+  },
+  "bugs": {
+    "url": "git@github.com:yuki-torii/qiniu-image-view2.git/issues"
+  },
+  "homepage": "git@github.com:yuki-torii/qiniu-image-view2.git#readme"
+}
