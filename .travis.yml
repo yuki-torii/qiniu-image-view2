@@ -8,6 +8,8 @@ sudo: false
 
 before_script:
   - npm install -g eslint
+  - npm install -g eslint-config-standard
+  - npm install -g ava
 
 cache:
   directories:
