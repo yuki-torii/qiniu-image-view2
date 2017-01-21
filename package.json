@@ -1,7 +1,7 @@
 {
   "name": "qiniu-image-view2",
   "description": "A npm project",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "limichange <limichange@hotmail.com>",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,9 @@
     "eslint-plugin-standard": "^2.0.1"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "standard": {
     "globals": []
