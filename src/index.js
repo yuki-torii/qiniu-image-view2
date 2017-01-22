@@ -1,4 +1,4 @@
-const isString = require('lodash.isstring')
+const isString = require('yuki-is').type.string
 Object.keys = Object.keys || require('object-keys')
 
 /*

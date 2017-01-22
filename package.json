@@ -11,8 +11,8 @@
     "prepublish": "babel src --out-dir lib"
   },
   "dependencies": {
-    "lodash.isstring": "^4.0.1",
-    "object-keys": "^1.0.11"
+    "object-keys": "^1.0.11",
+    "yuki-is": "^0.0.6"
   },
   "devDependencies": {
     "ava": "^0.17.0",

@@ -3259,3 +3259,7 @@ xtend@^4.0.0, xtend@~4.0.1:
 yallist@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.0.0.tgz#306c543835f09ee1a4cb23b7bce9ab341c91cdd4"
+
+yuki-is@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/yuki-is/-/yuki-is-0.0.6.tgz#5cdcc38c69825167d27cf381ae6c0f41e2729722"
