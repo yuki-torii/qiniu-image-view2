@@ -3,12 +3,14 @@
   "description": "A npm project",
   "version": "0.1.5",
   "author": "limichange <limichange@hotmail.com>",
-  "main": "lib/index.js",
+  "main": "dist/qiniu-image-view2.common.js",
+  "module": "dist/qiniu-image-view2.es5.js",
+  "unpkg": "dist/qiniu-image-view2.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "rollup -cw",
+    "build": "rollup -c --environment BUILD && uglifyjs dist/qiniu-image-view2.js > dist/qiniu-image-view2.min.js",
     "test": "npm run lint && ava",
-    "lint": "eslint --ext .js src test/unit/specs",
-    "prepublish": "babel src --out-dir lib"
+    "lint": "eslint --ext .js src test/unit/specs"
   },
   "dependencies": {
     "object-keys": "^1.0.11",
@@ -19,7 +21,13 @@
     "eslint": "^3.13.1",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2",
+    "uglify-js": "^2.7.5"
   },
   "babel": {
     "presets": [
