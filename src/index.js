@@ -1,5 +1,4 @@
 const isString = require('yuki-is').type.string
-Object.keys = Object.keys || require('object-keys')
 
 /*
  Doc: http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
